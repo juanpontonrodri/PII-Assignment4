@@ -22,11 +22,11 @@ public class Test {
 
         switch ( index) {
         case 1:
-            mosaic = new Mosaic("Assignment4/TileMosaic.txt");
+            mosaic = new Mosaic("TileMosaic.txt");
             break;
         case 2:
             if (mosaic!=null){      
-                mosaic.saveToFile("Assignment4/OutputMosaic.txt");
+                mosaic.saveToFile("OutputMosaic.txt");
             }
             else System.out.println("\nCreate a mosaic first(chose option 1)\n");
             break;
