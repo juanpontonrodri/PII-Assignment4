@@ -21,17 +21,17 @@ public class Tile{
         this.figure=figure;
         this.status=status;
     }
-    Tile(Circle circle, Color color, String position, int status){
-        this.color = color;
-        this.position=position;
-        this.figure=circle;
-        this.status=status;
-    }Tile(Rectangle rectangle, Color color, String position, int status){
-        this.color = color;
-        this.position=position;
-        this.figure=rectangle;
-        this.status=status;
-    }
+    // Tile(Circle circle, Color color, String position, int status){
+    //     this.color = color;
+    //     this.position=position;
+    //     this.figure=circle;
+    //     this.status=status;
+    // }Tile(Rectangle rectangle, Color color, String position, int status){
+    //     this.color = color;
+    //     this.position=position;
+    //     this.figure=rectangle;
+    //     this.status=status;
+    // }
     Tile(Color color, int status){
         this.color=color;
         this.status=status;

@@ -20,7 +20,6 @@ public class Circle extends Figure {
         return PI*(this.radius*this.radius)/100;    
     }
     
-    
     public boolean isEqualTo(Circle circle) {	
         return ((this.color.isEqualTo(circle.getColor()))&&(this.radius==circle.radius));
     }
@@ -35,7 +34,7 @@ public class Circle extends Figure {
         return this.radius;
     }
     
-    public void setRadius(int i){
-        this.radius=i;
+    public void setRadius(int radius){
+        this.radius=radius;
     }
  }

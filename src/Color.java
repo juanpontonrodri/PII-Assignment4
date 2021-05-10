@@ -59,7 +59,18 @@ public class Color {
         return "R"+r+"G"+g+"B"+b;
     }
 
-   
+   public void setR(int r){
+       this.r=r;
+   }
+
+   public void setG(int g){
+    this.g=g;
+    }
+
+    public void setB(int b){
+        this.b=b;
+    }
+
     public int getR() {
         return this.r;
     }
